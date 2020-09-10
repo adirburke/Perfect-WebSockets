@@ -10,7 +10,7 @@ let package = Package(
         .library(name: "PerfectWebSockets", targets: ["PerfectWebSockets"])
     ],
     dependencies: [
-        .package(url: "https://github.com/PerfectlySoft/Perfect-HTTP.git", from: "3.0.0"),
+        .package(url: "https://github.com/adirburke/Perfect-HTTP.git", from: "4.0.0"),
     ],
 	targets: [
         .target(name: "PerfectWebSockets", dependencies: ["PerfectHTTP"])
